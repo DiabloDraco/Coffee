@@ -81,6 +81,14 @@ body {
     color: #83888F;
 }
 
+.header__right__nav__item__link:hover {
+    color: #333D4B;
+}
+
+.header__right__nav__item__link:active {
+    opacity: 0.8;
+}
+
 .header__right__nav__item:last-child .header__right__nav__item__link {
     margin-right: 0;
 }
@@ -211,7 +219,7 @@ body {
 }
 
 .choose__container {
-    margin-bottom: 500px;
+    margin-bottom: 351px;
 }
 
 .choose__background {
@@ -328,7 +336,7 @@ body {
     margin-right: 368px;
     display: flex;
     align-items: center;
-
+    
 }
 
 .footer__container__left__list {
@@ -349,6 +357,10 @@ body {
     color: #83888F;
 }
 
+.footer__container__left__item__link:hover {
+    color: #FEFCF7;
+}
+
 .footer__container__left__item {
     margin-right: 33px;
 }
@@ -363,4 +375,94 @@ body {
 
 .footer__container__right__img:last-child {
     margin-right: 0;
+}
+
+.works__container {
+    margin-bottom: 200px;
+}
+
+.works__container-heading {
+    margin: 0;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 80px;
+}
+
+.works__list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.works__list__item {
+    width: 360px;
+    margin: 0;
+    padding-right: 95px;
+    position: relative;
+}
+
+
+
+.works__list__circle {
+    content: "";
+    background-image: url(./../images/Oval.svg);
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    margin-bottom: 67px;
+    z-index: 100;
+}
+
+.works__list__circle::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 15.5px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #FDD6BA;
+    z-index: -1;
+}
+
+.works__list__item:last-child .works__list__circle::after {
+    display: none;
+}
+
+.works__list__item-number {
+    margin: 0;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+}
+
+.works__list__item-heading {
+    margin: 0;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    width: 255px;
+    margin-bottom: 42px;
+}
+
+.works__list__item-text {
+    margin: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    margin-bottom: 64px;
 }
