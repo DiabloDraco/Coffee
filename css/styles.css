@@ -466,3 +466,232 @@ body {
     color: #333D4B;
     margin-bottom: 64px;
 }
+
+.hero__container--background {
+    background-image: url(./../images/about-bg.jpg);
+    width: 1280px;
+    height: 450px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 167px;
+}
+
+.hero__wrapper {
+    padding: 136px 0 138px 85px;
+    width: 445px;
+}
+
+.hero__heading {
+    margin: 0;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+}
+
+.hero__text {
+    margin: 0;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    width: 445px;
+}
+
+.commitment__container {
+    display: flex;
+    margin-bottom: 256px;
+    max-width: 1150px;
+}
+
+.commitment__left {
+    margin-right: 125px;
+}
+
+.commitment__left-img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.commitment__right {
+    margin-top: 90px;
+}
+
+.commitment__right-heading {
+    margin: 0;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    margin-bottom: 32px;
+}
+
+.commitment__right-text {
+    margin: 0;
+    width: 540px;
+    font-family: 'Barlow';
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.quality__wrapper {
+    background-color: #2C343E;
+    border-radius: 10px;
+    padding: 88px 0 176px 85px;
+    position: relative;
+    margin-bottom: 168px;
+}
+
+.quality--background {
+    background-image: url(./../images/quality-bg.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 445px 474px;
+    width: 445px;
+    height: 474px;
+    top: -85px;
+    right: 85px;
+}
+
+.quality__heading {
+    width: 540px;
+    margin: 0;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.quality__text {
+    margin: 0;
+    width: 540px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.headquarters__container {
+    max-width: 1085px;
+    margin-bottom: 168px;
+}
+
+.headquarters__heading {
+    margin: 0;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+}
+
+.headquarters__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.headquarters__item-heading-uk {
+    margin: 0;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 95px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.headquarters__item-heading-uk::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./../images/uk.svg);
+    width: 41px;
+    height: 49px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+}   
+
+.headquarters__item-heading-canada {
+    margin: 0;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 95px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.headquarters__item-heading-canada::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./../images/canada.svg);
+    width: 41px;
+    height: 49px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+}   
+
+.headquarters__item-heading-uk {
+    margin: 0;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 95px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.headquarters__item-heading-uk::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./../images/uk.svg);
+    width: 41px;
+    height: 49px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+}   
+
+.headquarters__item-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.headquarters-list_item {
+    margin: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
